@@ -8,8 +8,6 @@ class ChattyStudent < Student
   
   def raise_hand
     super
-    string = ""
-   10.times{ string << "Pick me!"}
-   puts string
+   10.times{ puts "Pick me!"}
   end
 end
